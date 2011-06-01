@@ -19,11 +19,13 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
     "lib/strawberry_log.rb",
+    "strawberry_log.gemspec",
     "test/helper.rb",
     "test/test_strawberry_log.rb"
   ]
