@@ -15,9 +15,9 @@ Jeweler::Tasks.new do |gem|
   gem.name = "strawberry_log"
   gem.homepage = "http://github.com/coffeeaddict/strawberry_log"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "hcdm@matchvertise.com"
+  gem.summary = %Q{Strawberry flavored loggin}
+  gem.description = %Q{Strawberry flavored loggin}
+  gem.email = "hartog.de.mik@gmail.com"
   gem.authors = ["Hartog C. de Mik"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
