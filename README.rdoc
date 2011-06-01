@@ -1,19 +1,47 @@
-= strawberry_log
+= Strawberry Log
 
-Description goes here.
+Make your Rails logging appear in color for easier debugging by monkey patching
+ActiveSupport::BufferedLogger
+
+* Rails.logger.error "message" will turn up red
+* Rails.logger.debug "message" will turn up yellow
+
+Obviously, these ANSI colors are not active when in production mode
+
+== An image of a strawberry log
+
+http://simplic.it/images/strawberry_log.jpeg
+
+(Source: http://www.swedishbakery.com)
+
+== Installation
+
+Add this to your Gemfile
+
+  gem "strawberry_log"
+
+and update your bundle
+
+== Synopsis
+
+Nothing to do really. It just works.
 
 == Contributing to strawberry_log
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+
+* Check out the latest master to make sure the feature hasn't been implemented
+  or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it
+  and/or contributed it
 * Fork the project
 * Start a feature/bugfix branch
 * Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+* Make sure to add tests for it. This is important so I don't break it in a
+  future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to
+  have your own version, or is otherwise necessary, that is fine, but please
+  isolate to its own commit so I can cherry-pick around it.
 
 == Copyright
 
 Copyright (c) 2011 Hartog C. de Mik. See LICENSE.txt for
 further details.
-
