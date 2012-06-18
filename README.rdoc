@@ -10,9 +10,9 @@ Obviously, these ANSI colors are not active when in production mode
 
 == An image of a strawberry log
 
-http://simplic.it/images/strawberry_log.jpeg
+http://www.flickr.com/photos/bittlesugarart/4670143853/
 
-(Source: http://www.swedishbakery.com)
+(Source: Bittle http://www.flickr.com/people/bittlesugarart/)
 
 == Installation
 
